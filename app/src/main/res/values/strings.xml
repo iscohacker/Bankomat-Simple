@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bankomat</string>
+    <string name="miqdor_kiriitng">Miqdor kiriitng</string>
+    <string name="yechish">Yechish</string>
+    <string name="yakunlash">Yakunlash</string>
+    <string name="summangiz">Summangiz</string>
+</resources>
