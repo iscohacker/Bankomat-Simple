@@ -100,7 +100,7 @@ class SumActivity : AppCompatActivity() {
     }
 
     private fun calculateBills(amount: Int): Map<Int, Int> {
-        val bills = listOf(100000, 50000, 10000, 5000, 1000)
+        val bills = listOf(200000,100000, 50000, 10000, 5000,2000, 1000)
         val billCounts = mutableMapOf<Int, Int>()
 
         var remainingAmount = amount
@@ -122,10 +122,12 @@ class SumActivity : AppCompatActivity() {
 
     private fun getBillImageResource(billName: String): Int {
         return when (billName) {
+            "200000" -> R.drawable.ikkiyyuz
             "100000" -> R.drawable.yuz
             "50000" -> R.drawable.ellik
             "10000" -> R.drawable.on
             "5000" -> R.drawable.besh
+            "2000"-> R.drawable.ikki
             "1000" -> R.drawable.bir
             else -> 0
         }
